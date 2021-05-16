@@ -72,9 +72,4 @@ resource "aws_s3_bucket_object" "app" {
 output "Endpoint" {
   value = aws_s3_bucket.app.website_endpoint
 
-  backend "s3" {
-    bucket = "bed919fd-ca91-1389-0356-94b922dc6744-backend"
-    key    = "terraform/webapp/terraform.tfstate"
-    region = "us-east-1"
-  }
 }
