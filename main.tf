@@ -80,5 +80,5 @@ terraform {
     bucket = "bed919fd-ca91-1389-0356-94b922dc6744-backend"
     key    = "terraform/webapp/terraform.tfstate"
     region = "us-east-1"
- }
+  }
 }
