@@ -10,7 +10,7 @@ terraform {
 }
 
 backend "s3" {
-  bucket = "YOUR-UNIQUE-BUCKET-ID"
+  bucket = "3a8e5e7c-8d19-4582-35eb-92e00abe03fe-backend"
   key    = "terraform/webapp/terraform.tfstate"
   region = "us-east-1"
 
